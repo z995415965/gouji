@@ -1,4 +1,3 @@
-// settings.gradle.kts: Gradle settings
 pluginManagement {
     repositories {
         google()
@@ -14,5 +13,4 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "GoujiCardCounter"
 include(":app")
