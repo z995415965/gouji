@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/values/strings.xml -->
+<resources>
+    <string name="app_name">够级记牌器</string>
+    
+    <!-- Main Activity -->
+    <string name="btn_start_counting">开始记牌</string>
+    <string name="btn_stop_counting">停止记牌</string>
+    <string name="btn_reset">重置</string>
+    <string name="btn_settings">设置</string>
+    <string name="btn_tutorial">使用教程</string>
+    
+    <!-- Settings -->
+    <string name="setting_ocr_confidence">OCR识别阈值</string>
+    <string name="setting_recognition_interval">识别间隔(秒)</string>
+    <string name="setting_auto_start">开机自启</string>
+    <string name="setting_deck_count">牌局类型</string>
+    
+    <!-- Tutorial -->
+    <string name="tutorial_title">使用教程</string>
+    <string name="tutorial_step1">第一步：开启悬浮窗权限</string>
+    <string name="tutorial_step2">第二步：点击开始记牌</string>
+    <string name="tutorial_step3">第三步：切换到游戏画面</string>
+    
+    <!-- Floating Window -->
+    <string name="floating_window_title">记牌器</string>
+    <string name="card_remaining">剩余</string>
+    
+    <!-- Permissions -->
+    <string name="permission_floating_title">悬浮窗权限</string>
+    <string name="permission_floating_desc">需要悬浮窗权限来显示记牌面板</string>
+    <string name="permission_notification_title">通知权限</string>
+    <string name="permission_notification_desc">需要通知权限来显示后台服务状态</string>
+    <string name="permission_battery_title">电池优化</string>
+    <string name="permission_battery_desc">建议关闭电池优化以保证后台稳定运行</string>
+</resources>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- res/xml/preferences.xml -->
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    
+    <PreferenceCategory android:title="识别设置">
+        <EditTextPreference
+            android:key="key_ocr_confidence"
+            android:title="OCR识别阈值"
+            android:summary="默认0.75"
+            android:defaultValue="0.75"
+            android:inputType="numberDecimal" />
+        
+        <EditTextPreference
+            android:key="key_recognition_interval"
+            android:title="识别间隔(秒)"
+            android:summary="默认2秒"
+            android:defaultValue="2"
+            android:inputType="number" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="运行设置">
+        <SwitchPreference
+            android:key="key_auto_start"
+            android:title="开机自启"
+            android:summary="设备重启后自动启动记牌器"
+            android:defaultValue="false" />
+        
+        <SwitchPreference
+            android:key="key_foreground_service"
+            android:title="前台服务保活"
+            android:summary="使用前台服务保持后台运行"
+            android:defaultValue="true" />
+    </PreferenceCategory>
+    
+    <PreferenceCategory android:title="关于">
+        <Preference
+            android:title="版本"
+            android:summary="1.0.0" />
+        <Preference
+            android:title="使用教程"
+            android:summary="点击查看详细使用说明" />
+    </PreferenceCategory>
+</PreferenceScreen>

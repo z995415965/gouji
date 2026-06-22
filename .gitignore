@@ -1,0 +1,41 @@
+# .gitignore: Git ignore rules for Android project
+# Built application outputs
+build/
+app/build/
+
+# Android Studio
+.idea/
+*.iml
+*.iws
+*.ipr
+.gradle/
+local.properties
+saved_logs/
+test_result/
+
+# Generated files
+*.apk
+*.aab
+*.ap_
+*.dex
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Keystore files (keep secure)
+*.jks
+*.keystore
+
+# Native libraries
+libs/*.so
+
+# Log files
+*.log
+
+# Temporary files
+tmp/
+temp/
+
+# PaddleOCR models (large files, download separately)
+assets/models/

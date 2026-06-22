@@ -1,0 +1,27 @@
+// ic_launcher.xml: Vector drawable for app icon
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    
+    <path
+        android:fillColor="#1976D2"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0" />
+    
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,30 L60,42 L72,42 L62,50 L66,62 L54,54 L42,62 L46,50 L36,42 L48,42 Z" />
+    
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M30,70 L40,70 L40,80 L30,80 Z" />
+    
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M50,70 L60,70 L60,80 L50,80 Z" />
+    
+    <path
+        android:fillColor="#FF9800"
+        android:pathData="M70,70 L80,70 L80,80 L70,80 Z" />
+</vector>
